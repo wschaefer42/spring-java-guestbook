@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/guestbook")
+@RequestMapping("/api")
 public class GuestBookResource {
     private GuestService guestService;
 
